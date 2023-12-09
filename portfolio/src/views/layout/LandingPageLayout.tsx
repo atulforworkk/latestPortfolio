@@ -8,7 +8,7 @@ function LandingPageLayout() {
     <div>
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
