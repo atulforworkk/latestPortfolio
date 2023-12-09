@@ -1,18 +1,18 @@
 import React from "react";
 // import { ModeToggle } from "../../../components/Mode-toggle";
 import { Button } from "../../../components/ui/button";
-
+import codingImage from "../../../assets/coding.svg";
 type Props = {};
 
 const LandingPage = (props: Props) => {
   return (
-    <div className="flex h-[80vh] ">
-      <div className="flex-1 bg-pink-500">
+    <div className="flex h-[75vh]  items-center">
+      <div className="flex-1 ">
         <div>
           <h1 className="text-2xl p-6 font-semibold">
             Hi,I am Atul . <br />I love to build amazing Apps.
           </h1>
-          <p className="text-lg">
+          <p className="text-lg px-6 text-gray-400">
             A web developer with a passion for creating responsive and
             user-friendly websites. Proficient in frontend technology,, with a
             keen eye for design and a commitment to delivering seamless and
@@ -21,8 +21,13 @@ const LandingPage = (props: Props) => {
             abreast of the latest front-end development trends.
           </p>
         </div>
+        <div>
+          <Button className="m-6"> Work with me </Button>
+        </div>
       </div>
-      <div className="flex-1 bg-green-500"></div>
+      <div className="flex-1 ">
+        <img src={codingImage} alt="" className="h-72 pl-32 " />
+      </div>
     </div>
   );
 };
