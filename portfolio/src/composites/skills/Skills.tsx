@@ -20,4 +20,11 @@ const Skills = (props: Props) => {
 
 export default Skills;
 
-const skillSet = ["JavaScript", "React", "Tailwind", "Mantine UI", "Shadcn UI"];
+const skillSet = [
+  "JavaScript",
+  "React",
+  "Tailwind",
+  "Mantine UI",
+  "Shadcn UI",
+  "NodeJs",
+];
