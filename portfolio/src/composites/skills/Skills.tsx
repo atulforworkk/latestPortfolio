@@ -11,7 +11,7 @@ const Skills = (props: Props) => {
       </div>
       <div className="grid grid-cols-2  justify-items-center w-full">
         {skillSet.map((value, index) => {
-          return <SkillsTech value={value}></SkillsTech>;
+          return <SkillsTech value={value} key={index}></SkillsTech>;
         })}
       </div>
     </div>
