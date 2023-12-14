@@ -1,12 +1,14 @@
 import React from "react";
 import CorrectIcon from "./correctIcon.svg";
-type Props = {};
+type Props = {
+  value: string;
+};
 
-const SkillsTech = (props: Props) => {
+const SkillsTech = ({ value }: Props) => {
   return (
-    <div className="flex bg-[#212530] w-72 h-10 m-2   justify-center  items-center">
+    <div className="flex bg-[#212530] w-7/12 h-10 m-2   justify-center  items-center">
       <img src={CorrectIcon} alt="" className="px-6" />
-      <p>Javascript</p>
+      <p>{value}</p>
     </div>
   );
 };
