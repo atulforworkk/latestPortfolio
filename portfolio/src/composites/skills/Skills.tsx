@@ -9,7 +9,7 @@ const Skills = (props: Props) => {
         <Cpu className="" />
         <h1 className="text-2xl font-semibold">Skills & Technologies</h1>
       </div>
-      <div className="grid grid-cols-2 w-78  ">
+      <div className="grid grid-cols-2  justify-items-center w-full">
         {skillSet.map((value, index) => {
           return <SkillsTech value={value}></SkillsTech>;
         })}
