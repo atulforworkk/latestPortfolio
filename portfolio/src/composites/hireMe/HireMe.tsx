@@ -61,7 +61,7 @@ const HireMe: React.FC = () => {
   ];
 
   return (
-    <div className="flex h-48 py-8">
+    <div className="flex h-48 py-8" id="hire-me-section">
       <div className="flex-1 flex justify-center items-center">
         <h1 className="text-3xl font-semibold">Hire Me</h1>
       </div>

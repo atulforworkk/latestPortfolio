@@ -12,6 +12,7 @@ const router = createBrowserRouter([
         // element: <Navigate to="/" replace />,
         element: <LandingPage />,
       },
+
       {
         path: "/projects",
         element: <Project />,
