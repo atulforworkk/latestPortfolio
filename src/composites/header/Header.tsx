@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../../components/ui/button";
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
+import { NavLink } from "react-router-dom";
 type Props = {};
 
 const Header = (props: Props) => {
@@ -17,9 +18,15 @@ const Header = (props: Props) => {
         <h1 className="text-2xl font-semibold px-4">
           <Link to="/">Atul Tiwari</Link>
         </h1>
-        <h3 className="text-xl pt-1 pl-4  text-gray-300">
-          <Link to="/projects">Projects</Link>
-        </h3>
+     
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            isActive ?  " text-xl pt-1 pl-4  text-blue-400":"text-xl pt-1 pl-4  text-gray-300"
+          }
+        >
+          Projects
+        </NavLink>
       </div>
       <div className="px-6 py-2 hover:delay-200 hover:bg-green-500">
         <button
