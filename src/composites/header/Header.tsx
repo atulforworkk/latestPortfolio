@@ -22,7 +22,7 @@ const Header = (props: Props) => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ?  " text-xl pt-1 pl-4  text-blue-400":"text-xl pt-1 pl-4  text-gray-300"
+            isActive ?  " text-xl pt-1 pl-4  text-[#21C55D]":"text-xl pt-1 pl-4  text-gray-300 hover:text-[#21C55D]"
           }
         >
           Projects
@@ -32,6 +32,7 @@ const Header = (props: Props) => {
         <button
           className="flex"
           onClick={() => scrollToSection("hire-me-section")}
+        
         >
           Hire Me <ChevronRight />
         </button>

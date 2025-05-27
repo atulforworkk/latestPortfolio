@@ -20,7 +20,12 @@ const Intro = (props: Props) => {
           </p>
         </div>
         <div>
-          <Button className="m-6"> Work with me </Button>
+        <Button
+  className="m-6"
+  onClick={() => window.open("https://www.linkedin.com/in/atulforworkk/", "_blank")}
+>
+  Work with me
+</Button>
         </div>
       </div>
       <div className="flex-1 ">
