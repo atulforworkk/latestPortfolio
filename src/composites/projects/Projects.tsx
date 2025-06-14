@@ -3,6 +3,7 @@ import PawseChat from "../../images/pawseChat.png"
 import StarBucksReplica from "../../images/StarBucksReplica.png"
 import DiceGame from "../../images/diceGame.png"
 import NikeClone from "../../images/NikeClone.png"
+import ValorantRandom from "../../images/ValorantRandom.png"
 
 const Projects = () => {
   const projects: ProjectProps[] = [
@@ -54,6 +55,16 @@ const Projects = () => {
       aboutProject:
         "An app to create email workflows and automate email campaigns with visual flow builder and scheduling capabilities.",
       imageSrc: NikeClone,
+      difficultyLevel: 4,
+    },
+    {
+      projectTitle: "Valorant Randomizer   ",
+      projectLink: "https://nike-beta-seven.vercel.app/",
+      TechStackFrontend: "React, React Flow, Tailwind CSS",
+      TechStackBackend: "Node.js, Agenda, Nodemailer, MongoDB",
+      aboutProject:
+        "An app to create email workflows and automate email campaigns with visual flow builder and scheduling capabilities.",
+      imageSrc: ValorantRandom,
       difficultyLevel: 4,
     },
   ];
