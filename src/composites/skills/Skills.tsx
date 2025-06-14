@@ -1,8 +1,7 @@
 import { Cpu } from "lucide-react";
 import SkillsTech from "../../components/skillstech/SkillsTech";
-type Props = {};
 
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
     <div>
       <div className="w-100 flex flex-col items-center justify-center ">

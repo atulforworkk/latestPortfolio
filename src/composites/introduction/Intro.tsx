@@ -1,8 +1,7 @@
 import { Button } from "../../components/ui/button";
 import codingImage from "../../assets/coding.svg";
-type Props = {};
 
-const Intro = (props: Props) => {
+const Intro = () => {
   return (
     <div className="flex h-[70vh]  items-center">
       <div className="flex-1 ">

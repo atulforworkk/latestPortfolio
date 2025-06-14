@@ -1,4 +1,4 @@
-import { Navigate, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import LandingPageLayout from "../views/layout/LandingPageLayout";
 import LandingPage from "../views/pages/landing/LandingPage";
 import Project from "../views/pages/project/Project";

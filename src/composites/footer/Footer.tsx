@@ -1,8 +1,6 @@
-import React from "react";
 
-type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="py-6 flex justify-center items-center ">
       <h1 className="text-lg">

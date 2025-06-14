@@ -1,4 +1,3 @@
-import React from "react";
 import CorrectIcon from "./correctIcon.svg";
 type Props = {
   value: string;

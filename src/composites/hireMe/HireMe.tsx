@@ -1,4 +1,3 @@
-// import React from "react";
 // import { Github, Linkedin, MailCheck } from "lucide-react";
 // type Props = {};
 
@@ -37,7 +36,6 @@
 
 // const contactInfo = [];
 
-import React from "react";
 import { Github, Linkedin, MailCheck } from "lucide-react";
 import ContactLink from "../../components/contactInfo/ContactLink";
 

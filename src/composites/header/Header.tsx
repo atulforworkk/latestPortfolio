@@ -1,11 +1,8 @@
-import React from "react";
-import { Button } from "../../components/ui/button";
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { NavLink } from "react-router-dom";
-type Props = {};
 
-const Header = (props: Props) => {
+const Header = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {

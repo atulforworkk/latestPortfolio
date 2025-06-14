@@ -1,10 +1,7 @@
-import React from "react";
 import Projects from "../../../composites/projects/Projects";
-type Props = {};
 
-const Project = (props: Props) => {
+const Project = () => {
   return <div>
-
     <Projects/>
   </div>;
 };
